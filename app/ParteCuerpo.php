@@ -4,13 +4,15 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TipoUsuario extends Model
+class ParteCuerpo extends Model
 {
-    protected $table = "tipos_usuarios";
+    protected $table = 'partes_cuerpo';
 
     public $timestamps = false;
 
     protected $fillable = [
-        'nombre'
+        'nombre',
+        'imagen',
+        'descripcion'
     ];
 }

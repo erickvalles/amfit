@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 
 Route::resource('tipos_usuarios','TipoUsuarioController');
+Route::resource('partes_cuerpo','ParteCuerpoController');

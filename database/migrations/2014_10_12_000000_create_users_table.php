@@ -33,6 +33,7 @@ class CreateUsersTable extends Migration
             $table->unsignedInteger('tipos_usuarios_id');
             $table->unsignedInteger('objetivos_id');
 
+
             $table->index(["objetivos_id"], 'fk_users_objetivos1_idx');
 
             $table->index(["tipos_usuarios_id"], 'fk_users_tipos_usuarios_idx');
